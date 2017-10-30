@@ -8,7 +8,8 @@ import logging
 logger = logging.getLogger('scipycentral')
 
 # 3rd party (non-Django) imports
-from sphinx.application import Sphinx, SphinxError
+from sphinx.application import Sphinx
+from sphinx.errors import SphinxError
 import simplejson
 
 # Django import

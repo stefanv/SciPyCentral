@@ -17,7 +17,7 @@ from scipy_central.comments.forms import SpcCommentEditForm
 from scipy_central.rest_comments.views import compile_rest_to_html
 
 # other imports
-from sphinx.application import SphinxError
+from sphinx.errors import SphinxError
 
 logger = logging.getLogger('scipycentral')
 logger.debug('Initializing comments::comments.py')
